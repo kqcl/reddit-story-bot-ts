@@ -1,0 +1,24 @@
+{
+    "name": "shortsmaker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "fluent-ffmpeg": "^2.1.2",
+        "puppeteer": "^22.1.0",
+        "tiktok-tts": "^1.1.16"
+    },
+    "devDependencies": {
+        "@types/fluent-ffmpeg": "^2.1.24",
+        "@types/node": "^20.11.19",
+        "@types/node-fetch": "^2.6.11",
+        "ts-node": "^10.9.2"
+    }
+}
